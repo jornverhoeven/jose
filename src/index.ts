@@ -34,8 +34,8 @@ export { EncryptJWT } from './jwt/encrypt.js'
 export { calculateJwkThumbprint, calculateJwkThumbprintUri } from './jwk/thumbprint.js'
 export { EmbeddedJWK } from './jwk/embedded.js'
 
-export { createLocalJWKSet } from './jwks/local.js'
-export { createRemoteJWKSet } from './jwks/remote.js'
+export { createLocalJWKSet, LocalJWKSet } from './jwks/local.js'
+export { createRemoteJWKSet, RemoteJWKSet } from './jwks/remote.js'
 export type { RemoteJWKSetOptions } from './jwks/remote.js'
 
 export { UnsecuredJWT } from './jwt/unsecured.js'

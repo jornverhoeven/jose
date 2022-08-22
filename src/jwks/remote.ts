@@ -37,7 +37,7 @@ export interface RemoteJWKSetOptions {
   headers?: Record<string, string>
 }
 
-class RemoteJWKSet extends LocalJWKSet {
+export class RemoteJWKSet extends LocalJWKSet {
   private _url: globalThis.URL
 
   private _timeoutDuration: number
